@@ -1,0 +1,48 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<title>Smart wind farm</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<body class="w3-light-grey">
+
+    <!-- Navigation Bar -->
+    <div class="w3-bar w3-white w3-large">
+      <a href="/weather/" class="w3-bar-item w3-button w3-red w3-mobile"><i class="fas fa-fan  w3-margin-right"></i>Home</a>
+      <a href="#" class="w3-bar-item w3-button w3-mobile">Maintance</a>
+      
+    </div>
+    <div class="w3-row w3-padding-64" id="menu">
+        <div class="w3-col l6 w3-padding-large">
+          <h1 class="w3-center">Maintaince Techqniques</h1><br>
+          <h4>Lubricate moving parts</h4>
+          <p class="w3-text-grey"> lubricate moving parts of windmill—such as gearboxes and bearings</p><br>
+        
+          <h4>Check connections </h4>
+          <p class="w3-text-grey">check connections within the system and resolve any major issues that may develop.</p><br>
+        
+          <h4>Utility system construction</h4>
+          <p class="w3-text-grey"> Utility system construction companies build and maintain the infrastructure used to generate and distribute power.</p><br>
+        
+          <h4>Scheduling and Reporting</h4>
+          <p class="w3-text-grey">Wind farm maintenance supervisors may also assist with repairing and maintaining wind turbines when needed</p><br>
+          <h4>Windpower Monthly</h4>
+          <p class="w3-text-grey">Windpower Monthly is an online periodical that posts frequent articles related to the wind power industry, including weekly pieces specific to wind farm maintenance and operations.</p><br>
+        
+          <h4>Sensors </h4>
+          <p class="w3-text-grey">Sensors located at key points on each turbine send various types of data back to the wind farm’s maintenance team. This data includes information on lubrication levels, vibration, temperatures, and foundation displacement, all of which can be used to plan maintenance. For instance, if the wind eddy sensors show too much vibration in the turbine shaft, it can indicate the shaft has run too far out of place and needs to be realigned.</p>    
+        </div>
+        <div class="w3-col l6 w3-padding-large">
+            <img src="{% static '09.png' %}" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+        </div>
+    </div>
+        
+</body>

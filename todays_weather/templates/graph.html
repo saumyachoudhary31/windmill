@@ -1,0 +1,77 @@
+{% load static %}
+<!DOCTYPE html>
+<html dir="ltr">
+<head >
+    <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="{% static 'css.css' %}"/>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="https://kit.fontawesome.com/fa296d6677.js" crossorigin="anonymous"></script>
+<style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+    </style>
+</head>
+<body class="w3-light-grey">
+
+    <!-- Navigation Bar -->
+    <div class="w3-bar w3-white w3-large">
+      <a href="/weather/" class="w3-bar-item w3-button w3-red w3-mobile"><i class="fas fa-fan  w3-margin-right"></i>Home</a>
+     
+      <a href="/maintaince/" class="w3-bar-item w3-button w3-mobile">Maintance</a>
+     
+    </div>
+    <div class="w3-container w3-center">
+        <hr>
+        <h3>Graphs</h3>
+   
+      </div>
+      
+      <div class="w3-row-padding"> 
+      
+      <div class="w3-third">
+      <div class="w3-card">
+        <img src="{% static 'date_time_powernew.png' %}" alt="Car" style="width:100%">
+        <div class="w3-container">
+        <p>Date Time v/s Predicted Power</p>
+        </div>
+      </div>
+      </div>
+      
+      <div class="w3-third">
+      <div class="w3-card-4">
+        <img src="{% static 'wind_speed_powernew.png' %}" alt="Car" style="width:100%">
+        <div class="w3-container">
+        <p>Wind Speed  v/s Predicted Power</p>
+        </div>
+      </div>
+      </div>
+      
+      <div class="w3-third">
+      <div class="w3-card-4">
+        <img src="{% static 'wind_direction_powernew.png' %}" alt="Car" style="width:100%">
+        <div class="w3-container">
+        <p>Wind Direction  v/s Predicted Power</p>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div class="w3-container w3-center">
+        <hr>
+        <h3></h3>
+      </div>
+      
+      <div class="w3-row-padding"> 
+      
+      
+      
+     
+      </div>
+      </div>
+      </div>
+      
+      
+    
+
+</body>

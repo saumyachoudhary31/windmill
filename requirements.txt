@@ -1,0 +1,10 @@
+
+Django==2.1.7
+requests==2.23.0
+urllib3==1.25.9
+pandas==1.0.3
+tensorflow==2.2.0
+geocoder==1.38.1
+matplotlib==3.2.2
+reverse-geocoder==1.5.1
+
