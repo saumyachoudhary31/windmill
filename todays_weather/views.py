@@ -13,8 +13,8 @@ from django.conf import settings
 #from playsound import playsound
 
 #from twilio.rest import Client
-#account_sid="AC7ee127f3c6064ba554f604445dcfb9fc"
-#auth_token="e31a2770e7d8f82401b9b9594d556e8a"
+#account_sid="your account id"
+#auth_token="your token"
 #client=Client(account_sid,auth_token)
 # import io
 # import urllib, base64
